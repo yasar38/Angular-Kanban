@@ -1,0 +1,11 @@
+- İlk olarak projeyi oluşturmak ve scss, routing özelliklerini vermek oldu.
+- VS code kullanılmıştır. 
+ - VS code içine "bulma" yüklenmiştir.
+ - VS code içine "@angular/cdk" yüklenmiştir.
+- MainView component'i oluşturulmuştur.
+- Board nesneleri oluşturulup listelerin tutulacağı şekilde scss'de yazılmıştır.
+- Task nesnesi oluşturulup 'Board' nesnesi içerisine konulmuştur.
+- material.angular.io adresindeki 'Drag and Drop' menüsünden listeleri diğer listelerin materialleri ile değiştirmek için kodlar alınmıştır.
+- 'models' klasörü oluşturulup içerisine ilgili .ts dosyaları oluşturulmuştur.
+- main-view.component.ts dosyası içerisine dinamik olması açısından fonksiyonlar yazılmıştır. Liste elemanlarını ve hangi listenin hangi menü
+altında olacağını söyleyen bu fonksiyon sayesinde, main-view.component.html içerisinde tek bir board ve task nesnesi ile işlemimizi hallediyoruz.
